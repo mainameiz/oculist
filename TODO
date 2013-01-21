@@ -1,0 +1,8 @@
+requires { String: [ :building ], Numeric: [ :subbuilding, :floor ] }
+requires { String: { building: /^[2|3]K$/ }, Numeric: [ :subbuilding, :floor ] }
+
+requires :channel do
+  requires :name, type: String
+end
+
+requires :name, type: String, constraints: { in: [ 'foo', 'bar' ]}
