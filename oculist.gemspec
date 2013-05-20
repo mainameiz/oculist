@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Oculist::VERSION
   gem.authors       = ["Nikolay Markov"]
   gem.email         = ["mainameiz@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Provides ability to define required and optional parameters for controllers' actions in Ruby On Rails (with type casting and conditions)}
+  gem.summary       = %q{Controller parameters filtering is Rails}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
